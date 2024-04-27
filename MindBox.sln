@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox", "MindBox.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresAreas", "FiguresAreas\FiguresAreas.csproj", "{98139484-4B38-4E47-999E-7A4255E1D83A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresAreas.Tests", "FiguresAreas.Tests\FiguresAreas.Tests.csproj", "{21779F7E-F1C1-4B0F-890F-4A492D6C4353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiguresAreas.Tests", "FiguresAreas.Tests\FiguresAreas.Tests.csproj", "{21779F7E-F1C1-4B0F-890F-4A492D6C4353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{F4F5C0F9-C813-474E-8855-6939933F1874}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery_1.sql = SqlQuery_1.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
