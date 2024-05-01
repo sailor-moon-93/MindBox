@@ -8,7 +8,7 @@ namespace FiguresAreas
         {
             double r = 5;
 
-            var result = Areas.CircleArea(r);
+            var result = Areas.CalcArea(r);
             Assert.AreEqual(78.53981633974483, result);
         }
 
@@ -17,7 +17,7 @@ namespace FiguresAreas
         {
             double r = -5;
 
-            var result = Areas.CircleArea(r);
+            var result = Areas.CalcArea(r);
             Assert.AreEqual(-1, result);
         }
 
@@ -26,7 +26,7 @@ namespace FiguresAreas
         {
             double r = 10;
 
-            var result = Areas.CircleArea(r);
+            var result = Areas.CalcArea(r);
             Assert.AreEqual(314.1592653589793, result);
         }
     }
@@ -40,7 +40,7 @@ namespace FiguresAreas
             double b = 8;
             double c = 4;
 
-            var result = Areas.TriangleArea(a, b, c);
+            var result = Areas.CalcArea(a, b, c);
             Assert.AreEqual(8.181534085976786, result);
         }
         [TestMethod]
@@ -50,7 +50,7 @@ namespace FiguresAreas
             double b = 3;
             double c = 3;
 
-            var result = Areas.TriangleArea(a, b, c);
+            var result = Areas.CalcArea(a, b, c);
             Assert.AreEqual(3.897114317029974, result);
         }
 
@@ -61,7 +61,7 @@ namespace FiguresAreas
             double b = -1;
             double c = 15;
 
-            var result = Areas.TriangleArea(a, b, c);
+            var result = Areas.CalcArea(a, b, c);
             Assert.AreEqual(-1, result);
         }
 
@@ -72,7 +72,7 @@ namespace FiguresAreas
             double b = 12;
             double c = 8;
 
-            var result = Areas.TriangleArea(a, b, c);
+            var result = Areas.CalcArea(a, b, c);
             Assert.AreEqual(14.523687548277813, result);
         }
     }

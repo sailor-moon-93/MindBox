@@ -8,7 +8,14 @@ namespace FiguresAreas
 {
     public class Areas
     {
-        public static double TriangleArea(double a, double b, double c)
+        /// <summary>
+        /// Метод возвращает площадь треугольника с типом double, так же проверяет треугольник на равносторонность. В случае ошибок входных данных возвращает -1
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns></returns>
+        public static double CalcArea(double a, double b, double c)
         {
             if (a > 0.0 && b > 0.0 && c > 0.0)
             {
@@ -25,7 +32,12 @@ namespace FiguresAreas
             return -1.0;
         }
 
-        public static double CircleArea(double r)
+        /// <summary>
+        /// Метод возвращает площадь круга по его радиусу. В случае ошибок входных данных возвращает -1
+        /// </summary>
+        /// <param name="r"></param>
+        /// <returns></returns>
+        public static double CalcArea(double r)
         {
             if (r > 0.0)
             {

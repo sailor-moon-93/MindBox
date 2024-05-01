@@ -45,12 +45,12 @@ namespace MindBox
                         double c = double.Parse(Console.ReadLine());
                         if (a == b && a == c && a != 0)
                         {
-                            result = Areas.TriangleArea(a, b, c); //вызываем метод самописной библиотеки для равностороннего треугольника
+                            result = Areas.CalcArea(a, b, c); //вызываем метод самописной библиотеки для равностороннего треугольника
                             Console.WriteLine($"Ваш треугольник равносторонний, его площадь равна {result} см^2");
                         }
                         else
                         {
-                            result = Areas.TriangleArea(a, b, c); //вызываем метод самописной библиотеки для обычного треугольника
+                            result = Areas.CalcArea(a, b, c); //вызываем метод самописной библиотеки для обычного треугольника
                             if (result > 0)
                                 Console.WriteLine($"Площадь вашего треугольника равна {result} см^2");
                             else
@@ -61,7 +61,7 @@ namespace MindBox
                         Console.WriteLine($"Ваша фигура {figures.ElementAt(1)}");
                         Console.WriteLine("Введите радиус вашего круга в см:");
                         double r = double.Parse(Console.ReadLine());
-                        result = Areas.CircleArea(r);
+                        result = Areas.CalcArea(r);
                         if (result > 0)
                             Console.WriteLine($"Площадь вашего круга равна {result} см^2");
                         else
