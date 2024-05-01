@@ -45,7 +45,7 @@ namespace MindBox
                         double c = double.Parse(Console.ReadLine());
                         if (a == b && a == c && a != 0)
                         {
-                            result = Areas.CalcArea(a, b, c); //вызываем метод самописной библиотеки для равностороннего треугольника
+                            result = Areas.CalcArea(a, b, c); //вызываем метод самописной библиотеки для треугольника, сработает проверка на равносторонность
                             Console.WriteLine($"Ваш треугольник равносторонний, его площадь равна {result} см^2");
                         }
                         else
